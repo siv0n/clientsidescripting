@@ -1,0 +1,100 @@
+:root {
+    --light-grey: #fefae0;
+    --dark-blue: #16230a;
+    --fcc-blue: #283618;
+    --light-yellow: #dda15e;
+    --dark-yellow: #bc6c25;
+    --light-pink: #ffadad;
+    --dark-red: #850000;
+    --light-green: #606c38;
+  }
+  
+  body {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: var(--fcc-blue);
+    color: var(--light-grey);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 680px;
+  }
+  
+  h1,
+  .container,
+  .output {
+    margin: 20px auto;
+    
+  }
+  
+  label,
+  legend {
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--light-yellow);
+    border: 2px solid var(--dark-yellow);
+    font-family: monospace;
+
+  }
+  
+  button,
+  input,
+  select {
+    min-height: 24px;
+    color: var(--dark-blue);
+    font-family: monospace;
+
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    margin-bottom: 10px;
+    
+  }
+  
+  .output {
+    border: 2px solid var(--light-grey);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .output span {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .surplus {
+    color: var(--light-pink);
+  }
+  
+  .deficit {
+    color: var(--light-green);
+  }
+
+  #entry-dropdown {
+    appearance: none;
+    padding: 0.675em 3em 0.675em 1em;
+    cursor: pointer;
+    font-family: monospace;
+  }
